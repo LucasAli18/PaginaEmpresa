@@ -9,28 +9,17 @@
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilo.css">
-
-    <meta name="theme-color" content="#2091F9">
-
-    <meta name="title" content="Aprende CSS desde cero">
-    <meta name="description"
-        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
-
-
+    <!-- Necesario para subir a internet -->
+    <meta name="theme-color" content="#2091F9"><!-- Cambia el color de la pestaña si estas en un dispositivo movil -->
+    <meta name="title" content="Aprende CSS DESDE CERO"><!-- Nombre que aparece en google -->
+    <meta name="description" content="Es un sitio web por defecto que utilizamos para comenzar y aprender css desde cero">
+    <!-- Open Graph Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alexcgdesign.github.io">
-    <meta property="og:title" content="Aprende CSS desde cero">
-    <meta property="og:description"
-        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
-    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
-
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.jordanalex.com/">
-    <meta property="twitter:title" content="Aprende CSS desde cero">
-    <meta property="twitter:description"
-        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
-    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
-</head>
+    <meta property="og:url" content="https://github.com/LucasAli18/PaginaEmpresa.git">
+    
+  
+  
+  </head>
 
 <body>
 
@@ -295,8 +284,53 @@
             </section>
         </section>
     </main>
+
+    <footer class="footer">
+      <section class="footer__container container">
+
+        <nav class="nav nav--footer">
+          <h2 class="footer__title">Curso CSS.</h2>
+
+          <ul class="nav__link nav__link--footer">
+            <li class="nav__items">
+              <a href="#" class="nav__links">Inicio</a>
+            </li>
+            <li class="nav__items">
+            <a href="#" class="nav__links">Acerca de</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__links">Contacto</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__links">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <form class="footer__form" action="https://formspree.io/f/xbjvdelw" method="POST">
+        <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+        <div class="footer__inputs">
+          <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+          <input type="submit" value="Registrate" class="footer__submit">
+        </div>
+      </form>
+    </section>
+
+    <section class="footer__copy container">
+      <div class="footer__social">
+        <a href="" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+        <a href="" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+        <a href="" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+      </div>
+
+      <h3 class="footer copyright">Derechos reservados &copy; Lucas Ali</h3>
+    </section>
+    </footer>
+
+    <script src="./js/menu.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
+
 </html>
